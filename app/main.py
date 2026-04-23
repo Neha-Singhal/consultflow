@@ -13,7 +13,7 @@ app.include_router(ai.router)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000",
-    "https://your-app.vercel.app"],
+    "https://consultflow-dusky.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
